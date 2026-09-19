@@ -1,0 +1,38 @@
+# Core API & Deployment
+fastapi
+uvicorn
+pydantic
+python-dotenv
+requests
+
+# Desktop GUI
+PySide6
+
+# Machine Learning & Data Processing
+pandas
+numpy
+scikit-learn
+joblib
+shap
+
+# Visualization (for EDA & Bias Audit)
+matplotlib
+seaborn
+
+# Generative AI (Google Gemini)
+langchain
+langchain-community
+langchain-google-genai
+langchain-core
+faiss-cpu
+
+# Notebook Environment
+jupyter
+ipykernel
+
+
+
+# Note: To install dependencies
+	# Open Powershell
+	# bash
+	# pip install -r requirements.txt

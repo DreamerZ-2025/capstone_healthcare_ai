@@ -1,0 +1,22 @@
+## 📂 Project Structure
+
+capstone_healthcare_ai/
+│
+├── .env		             	# Template for environment variables
+├── .gitignore              	# Prevents sensitive data and venv from being uploaded
+├── README.md               	# Project documentation
+├── requirements.txt        	# Python dependencies
+├── gui.py                  	# PySide6 Desktop GUI application
+│
+├── data/                   	# Data directory (loaded directly via sklearn)
+├── models/                 	# Saved model artifacts (.pkl) and scaler
+├── notebooks/              	# Jupyter notebooks for EDA and experimentation
+├── presentations/          	# Step 6 Deliverables (Technical & Business Slide Decks)
+├── reports/                	# Bias and Fairness Analysis report
+├── src/                    	# Source code
+│   ├── __init__.py
+│   ├── data_preprocessing.py  # Data loading and scaling
+│   ├── train.py               # Model training and hyperparameter tuning
+│   └── bias_audit.py          # Ethical AI and bias auditing script
+└── app/                    	# FastAPI application
+    └── main.py             	# API endpoints (/predict and /ask)
